@@ -1,0 +1,16 @@
+---
+label: Test template
+hide_body: false
+is_partial: false
+fields:
+- type: text
+  default: Title
+- type: boolean
+  default: true
+  name: atoggle
+  label: Label for a toggle
+- type: field_group
+  fields:
+  - type: text
+    default: Group title
+    name: grouptitle
